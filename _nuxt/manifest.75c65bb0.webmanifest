@@ -1,0 +1,105 @@
+{
+  "name": "Minna Bank by C4Benn",
+  "short_name": "Minna-Bank",
+  "description": "A beutiful Bank app mockup",
+  "icons": [
+    {
+      "src": "/minna/_nuxt/icons/icon_32x32.43ebb8.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_64x64.43ebb8.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_72x72.43ebb8.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_96x96.43ebb8.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_120x120.43ebb8.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_128x128.43ebb8.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_144x144.43ebb8.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_152x152.43ebb8.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_192x192.43ebb8.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_192x192.43ebb8.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_256x256.43ebb8.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_384x384.43ebb8.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_512x512.43ebb8.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minna/_nuxt/icons/icon_512x512.43ebb8.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/minna/?standalone=true",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#0958a1",
+  "lang": "en",
+  "dir": "ltr",
+  "orientation": "portrait",
+  "categories": [
+    "lifestyle",
+    "finance",
+    "banking",
+    "productivity & finance",
+    "productivity"
+  ]
+}
