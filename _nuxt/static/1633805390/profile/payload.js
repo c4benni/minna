@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/profile", {data:[{}],fetch:{},mutations:[["UPDATE_",{name:"greeting",value:"evening"}]]});
