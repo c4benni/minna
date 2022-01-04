@@ -1,0 +1,206 @@
+@media (prefers-color-scheme: dark) {
+  :root#bank-app {
+    --theme-surface: #0b0f19;
+    --theme-inner-surface: rgb(11, 15, 25);
+    --theme-surface-text: var(--body-c);
+    --theme-primary: hsl(223, 39%, 12%);
+    --theme-banner: hsl(221, 39%, 14%);
+    --theme-banner-invert: #fff;
+    --theme-surface-text: var(--body-c);
+    --theme-surface-invert: #fff;
+    --theme-surface-text-invert: rgba(0, 0, 0, 0.87059);
+    --theme-primary-invert: #ededed;
+    --theme-primary-text-invert: rgba(0, 0, 0, 0.87059);
+    --warning: #f5c117;
+    --error: #e45e5e;
+    --error-text: #e98f8f;
+    --success: #66bb6a;
+    --info: #026fb3;
+    --og-info: #026fb3;
+    --tertiary: #0064cf;
+    --secondary: hsl(198, 60%, 70%);
+    --primary: hsl(209, 77%, 68%);
+    --primary-text: var(--body-c);
+
+    --external-link: #ffb300;
+    --divide-color: hsla(0, 0%, 73%, 0.2);
+    --scrollbar-background: #616161;
+    --scrollbar-background-hover: #9e9e9e;
+    --scrollbar-track: rgba(34, 34, 34, 0.74902);
+    --blur-header: rgba(0, 0, 0, 0.75);
+    /* --blur-banner: rgba(34, 34, 34, 0.51373); */
+    --blur-banner: rgba(54, 54, 54, 0.51373);
+    --faded-theme-primary: #18181800;
+    --faded-theme-surface: transparent;
+    --faded-theme-banner: rgba(34, 34, 34, 0);
+    --hint-color: var(--success);
+    --disabled: #333;
+    --disabled-invert: #999;
+    --title-c: rgb(255, 255, 255);
+    --body-c: rgba(255, 255, 255, 0.85);
+    --subtitle-c: rgba(255, 255, 255, 0.75);
+    --caption-c: rgba(255, 255, 255, 0.65);
+    --disabled-c: rgba(255, 255, 255, 0.5);
+
+    --title-c-invert: rgb(0, 0, 0, 0.95);
+    --body-c-invert: rgba(0, 0, 0, 0.9);
+    --subtitle-c-invert: rgba(37, 37, 37, 0.825);
+    --caption-c-invert: rgba(41, 41, 41, 0.775);
+    --disabled-c-invert: rgba(44, 44, 44, 0.6);
+
+    --t-title: 1;
+    --t-subtitle: 0.825;
+    --t-body: 0.95;
+    --t-caption: 0.75;
+    --t-disabled: 0.65;
+    --raise-normal: 1px 2px 6px -1px rgba(0, 0, 0, 0.1),
+      1.5px 3px 15px 0px rgba(0, 0, 0, 0.051),
+      2px 4px 45px 1px rgba(0, 0, 0, 0.092);
+
+    --raise-zero: 0px 0px 0px 0px rgba(0, 0, 0, 0.045),
+      0px 0.5px 5px 0px rgba(0, 0, 0, 0.025),
+      0.25px 1px 15px 0.5px rgba(0, 0, 0, 0.0152);
+
+    --raise-light: 0px 0px 1px -1px rgba(0, 0, 0, 0.075),
+      0px 1px 10px 0px rgba(0, 0, 0, 0.051),
+      0.5px 1.5px 25px 1px rgba(0, 0, 0, 0.035);
+    --raise-dark: 0px 0px 4px -1px rgb(0 0 0/25%),
+      0px 2px 16px 1px rgb(0 0 0/15%), 1px 4px 64px 2px rgb(0 0 0/10%);
+    --raise-darker: 0px 0px 4px 0.25px rgb(0 0 0/25%),
+      0px 2px 16px 1px rgb(0 0 0/15%), 1px 4px 64px 2px rgb(0 0 0/10%);
+    --sheet-header-color: #272727;
+    --ds-light: drop-shadow(0px 4px 8px rgba(22, 22, 22, 0.3));
+    --ds-lighter: drop-shadow(0px 2px 4px rgba(22, 22, 22, 0.1));
+  }
+
+  html {
+    color-scheme: dark !important;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: light !important;
+  }
+
+  :root#bank-app {
+    --theme-surface: rgb(249, 250, 252);
+    --theme-inner-surface: #c8c8c8;
+    --theme-surface-text: var(--body-c);
+    --theme-primary: rgb(250 250 250);
+    --theme-banner: #fff;
+    --theme-banner-invert: #222;
+    --theme-primary-text: var(--body-c);
+    --theme-surface-invert: #070707;
+    --theme-surface-text-invert: hsla(0, 0%, 100%, 0.9);
+    --theme-primary-invert: #181818;
+    --theme-primary-text-invert: hsla(0, 0%, 100%, 0.9);
+    --warning: #ffda0a;
+    --error: #cb3434;
+    --success: #2a8f2f;
+    --info: #00466e;
+    --og-info: #00466e;
+    --tertiary: #c71585;
+    --secondary: hsl(226deg 89% 20%);
+    --primary: hsl(226deg 89% 10%);
+    --external-link: #4a148c;
+    --divide-color: rgba(0, 0, 0, 0.275);
+    --scrollbar-background: #616161;
+    --scrollbar-background-hover: #424242;
+    --scrollbar-track: #f5f5f5;
+    --blur-header: hsla(0, 0%, 100%, 0.30196);
+    --blur-banner: hsla(0, 0%, 100%, 0.302);
+    --faded-theme-primary: hsla(0, 0%, 100%, 0);
+    --faded-theme-surface: hsla(0, 0%, 94.1%, 0);
+    --faded-theme-banner: hsla(0, 0%, 100%, 0);
+    --hidden-text-background: linear-gradient(
+      90deg,
+      var(--faded-theme-primary) 85%,
+      var(var(--theme-primary)) 90%
+    );
+    --hint-color: var(--info);
+    --disabled: #999;
+    --title-c: rgb(0, 0, 0, 0.95);
+    --body-c: rgba(0, 0, 0, 0.9);
+    --subtitle-c: rgba(37, 37, 37, 0.825);
+    --caption-c: rgba(41, 41, 41, 0.775);
+    --disabled-c: rgba(44, 44, 44, 0.6);
+
+    --title-c-invert: rgb(255, 255, 255);
+    --body-c-invert: rgba(255, 255, 255, 0.85);
+    --subtitle-c-invert: rgba(255, 255, 255, 0.75);
+    --caption-c-invert: rgba(255, 255, 255, 0.65);
+    --disabled-c-invert: rgba(255, 255, 255, 0.5);
+
+    --disabled-invert: #333;
+    --t-title: 1;
+    --t-subtitle: 0.85;
+    --t-body: 0.925;
+    --t-caption: 0.8;
+    --t-disabled: 0.6;
+    --raise-normal: 0px 1px 4px -1px rgba(0, 0, 0, 0.1),
+      0.5px 2px 15px 0px rgba(0, 0, 0, 0.051),
+      1px 3px 45px 1px rgba(0, 0, 0, 0.092);
+    --raise-zero: 0px 0px 0px 0px rgba(0, 0, 0, 0.05),
+      0px 0.5px 7px 0px rgba(0, 0, 0, 0.025),
+      0.5px 1px 15px 0.5px rgba(0, 0, 0, 0.015);
+    --raise-light: 0px 0px 1px -1px rgba(0, 0, 0, 0.1),
+      0px 1px 15px 0px rgba(0, 0, 0, 0.051),
+      1px 2px 25px 1px rgba(0, 0, 0, 0.03);
+    --raise-dark: 0px 1px 4px 0.25px rgb(0 0 0/25%),
+      0px 2px 16px 1px rgb(0 0 0/15%), 1px 4px 64px 2px rgb(0 0 0/10%);
+    --raise-darker: 0px 0px 0.5px -1px rgb(0 0 0/50%),
+      0px 0px 12px -1px rgb(0 0 0/20%), 0px 2px 24px -1px rgb(0 0 0/15%),
+      0px 2px 48px -1px rgb(0 0 0/10%);
+    --sheet-header-color: #d2d2d2;
+    --ds-light: drop-shadow(0px 4px 8px rgba(17, 16, 16, 0.2));
+    --ds-lighter: drop-shadow(0px 0px 1px rgba(17, 16, 16, 0.2))
+      drop-shadow(0px 3px 6px rgba(17, 16, 16, 0.05));
+  }
+}
+
+html {
+  /* color-scheme: light dark; */
+  background-color: var(--success);
+  color: var(--theme-surface-text);
+}
+
+@media screen and (min-width: 959px) {
+  html {
+    background-color: #000;
+  }
+}
+
+html {
+  font-family: 'HK Grotesk', -apple-system, 'Segoe UI', 'Noto Sans', sans-serif;
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  --padding-right: 0px;
+  overflow-x: hidden;
+}
+
+.transparent {
+  background-color: transparent;
+  color: var(--theme-surface-text);
+}
+
+.transparent-text {
+  color: transparent;
+}
+
+@media (max-width: 612px) {
+  html {
+    font-size: 14.5px;
+  }
+}
+
+input,
+select,
+textarea {
+  font-size: 16px;
+}
