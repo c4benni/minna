@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/cards", {data:[{}],fetch:{},mutations:[["UPDATE_",{name:"greeting",value:"morning"}]]});

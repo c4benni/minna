@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/blank/transaction-history", {data:[{}],fetch:{},mutations:[["UPDATE_",{name:"greeting",value:"afternoon"}]]});
