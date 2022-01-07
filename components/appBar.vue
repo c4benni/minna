@@ -139,6 +139,8 @@ export default {
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
+position: relative;
+
 }
 
 .dark-theme .root[data-abr] {
@@ -206,7 +208,9 @@ export default {
   width: 100%;
 }
 
-/* .root[data-abr]::before {
+.root[data-abr]::before {
+
   border-bottom: var(--ui-divide);
-} */
+}
+
 </style>
