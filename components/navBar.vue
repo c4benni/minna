@@ -343,7 +343,8 @@ export default {
 
 .header[data-nbr] {
   position: absolute;
-  height: 56px;
+height: 64px;
+
   width: 100%;
   left: 0;
   top: 0;
@@ -385,7 +386,8 @@ export default {
   width: var(--nav-width);
   height: 100%;
   align-content: flex-start;
-  padding-top: 56px;
+padding-top: 64px;
+
   z-index: 1;
   grid-column-start: 1;
   grid-column-end: 2;

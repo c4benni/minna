@@ -798,9 +798,11 @@ export default {
 }
 
 #ui-root.md-up {
-  --nav-width: 232px;
+--nav-width: 264px;
+
   --nav-height: 0px;
-  --header-height: 56px;
+--header-height: 64px;
+
   overflow: hidden;
   display: grid;
   grid-template-columns: var(--nav-width) 1fr;
