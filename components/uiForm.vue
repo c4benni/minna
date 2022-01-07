@@ -61,7 +61,8 @@ export default {
                 ...submitData,
                 props: {
                   simpleButton: true,
-                  actionButton: true,
+// actionButton: true,
+
                   persistent: false,
                   ...(submitData?.props || {}),
                 },
