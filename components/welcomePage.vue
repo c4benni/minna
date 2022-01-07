@@ -106,6 +106,7 @@ export default {
               props: {
                 name: 'login',
                 submitText: 'Log in',
+
               },
               on: {
                 'submit-form': async () => {
@@ -255,12 +256,13 @@ export default {
                   btn(
                     {
                       props: {
-                        text: true,
+flat: true,
+
                         color: 'info',
                         block: true,
                         tag: 'div',
-                        filledText: true,
-                        actionButton: true,
+// filledText: true, // actionButton: true,
+
                       },
                       style: {
                         opacity: this.signingIn
@@ -600,6 +602,8 @@ export default {
 
 .ui-form[data-wpe] .form-append {
   margin-top: 1.5rem;
+margin-bottom: 4rem;
+
   display: grid;
   row-gap: 1.5rem;
   padding: 0 1rem;
